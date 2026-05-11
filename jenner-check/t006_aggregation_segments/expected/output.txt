@@ -1,0 +1,12 @@
+                              KPIs par segment RFM                              
+
+  Obs  SEG_RFM  EFFECTIF  HOMMES  FEMMES  AGE_MOINS_DE_25  AGE_25_35_ANS  AGE_35_45_ANS  AGE_45_55_ANS  AGE_55_65_ANS  AGE_PLUS_DE_65_ANS  INSCRITS_NL  CA_TOTAL_SEG            ARPU  NB_COMMANDES_MOYEN
+    1  RFM3            2       0       2                0              0              1              0              0                   1            1        739.53         369.765                 1.5
+    2  RFM1            4       1       3                0              0              1              1              0                   2            4        175.31         43.8275                 1.5
+    3  RFM9            4       2       2                0              0              0              1              1                   2            4       3351.32          837.83                4.25
+    4  RFM7            3       1       2                0              0              0              1              1                   1            3        364.38          121.46                   3
+    5  RFM8            3       1       2                0              0              1              0              0                   2            3       1118.17  372.7233333333                   6
+    6  RFM2            1       0       1                0              0              0              0              0                   1            1          91.2            91.2                   1
+    7  RFM6            2       0       2                0              0              0              1              1                   0            2        331.85         165.925                   1
+    8  RFM5            1       0       1                0              0              0              0              1                   0            1        295.69          295.69                   3
+

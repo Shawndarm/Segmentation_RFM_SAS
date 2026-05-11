@@ -1,0 +1,46 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 200.
+NOTE: DATA WORK.CLIENTS
+
+NOTE: Processing inline DATALINES (25 lines)
+
+NOTE: Read 25 rows from DATALINES.
+NOTE: Wrote WORK.CLIENTS (25 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA WORK.COMMANDES
+
+NOTE: Processing inline DATALINES (61 lines)
+
+NOTE: Read 61 rows from DATALINES.
+NOTE: Wrote WORK.COMMANDES (61 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA WORK.CLIENTS_CLEAN
+
+
+NOTE: Read 25 rows from WORK.CLIENTS.
+NOTE: Read 25 rows from WORK.CLIENTS.
+NOTE: Wrote WORK.CLIENTS_CLEAN (25 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA WORK.COMMANDES_CLEAN
+
+
+NOTE: Read 61 rows from WORK.COMMANDES.
+NOTE: Read 61 rows from WORK.COMMANDES.
+NOTE: Wrote WORK.COMMANDES_CLEAN (59 rows, 9 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=WORK.CLIENTS_CLEAN
+
+NOTE: PROC PRINT completed: 5 observations printed, 11 variables
+NOTE: PROC PRINT data=WORK.COMMANDES_CLEAN
+
+NOTE: PROC PRINT completed: 5 observations printed, 9 variables

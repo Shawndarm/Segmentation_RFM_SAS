@@ -1,0 +1,22 @@
+                           Clients nettoyés — extrait                           
+
+  Obs  NUM_CLIENT  ACTIF  A_ETE_PARRAINE  GENRE  INSCRIT_NL  DATE_INSCRIPTION  AGE  ANNEE_INSCRIPTION  MOIS_INSCRIPTION  MOIS_AN_INSCRIPTION  DATE_NAISSANCE
+    1  ID_99599        1  OUI             Femme           1        21/02/2016   60               2016                 2  2016-02                  23/09/1963
+    2  ID_407165       1  NON             Homme           1        28/09/2018   48               2018                 9  2018-09                  01/08/1975
+    3  ID_604458       1  OUI             Femme           1        22/07/2021   57               2021                 7  2021-07                  16/11/1966
+    4  ID_253433       1  OUI             Femme           1        26/02/2017   73               2017                 2  2017-02                  13/01/1950
+    5  ID_109694       1  OUI             Femme           1        05/05/2016   69               2016                 5  2016-05                  09/03/1954
+
+... 20 more observations (showing 5 of 25)
+
+                         Commandes nettoyées — extrait                          
+
+  Obs  NUM_CLIENT  NUMERO_COMMANDE  MONTANT_DES_PRODUITS  REMISE_SUR_PRODUITS  MONTANT_LIVRAISON  REMISE_SUR_LIVRAISON  MONTANT_TOTAL_PAYE  MOIS_NUM  DATE_COMMANDE
+    1  ID_102825            299541                   270                  -25              29.99                                    274.99         4     11/04/2021
+    2  ID_102825            317305                 224.5               -22.45              45.49                                    247.54         7     19/07/2021
+    3  ID_103666            281958                  6.95                                    3.99                                     10.94         1     21/01/2021
+    4  ID_104339            286947                   305                                     9.6                                     314.6         2     09/02/2021
+    5  ID_104339            301740                    75                                                                                75         4     23/04/2021
+
+... 54 more observations (showing 5 of 59)
+

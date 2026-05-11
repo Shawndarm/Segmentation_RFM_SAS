@@ -1,0 +1,25 @@
+                      Caractéristiques de la base clients                       
+
+                                              Obs              _NAME_  VALUE
+                                                1  nb_clients             25
+                                                2  compte_ouvert          25
+                                                3  inscrit_nl             23
+                                                4  nb_femmes              17
+                                                5  nb_hommes               8
+                                                6  age_inconnu             0
+                                                7  age_moins_de_25         0
+                                                8  age_25_35_ans           0
+                                                9  age_35_45_ans           5
+                                               10  age_45_55_ans           7
+                                               11  age_55_65_ans           4
+                                               12  age_plus_de_65_ans      9
+                                               13  age_moyen            58.2
+
+                             Répartition par genre                              
+
+                                                   The FREQ Procedure
+
+Genre    Frequency    Percent
+------------------------------
+Femme           17     68.00
+Homme            8     32.00

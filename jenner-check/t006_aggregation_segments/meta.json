@@ -1,0 +1,8 @@
+{
+  "bundle": "t006_aggregation_segments",
+  "source_file": "PGM/5_Rapport_et_Visuels_RFM.sas",
+  "source_blob_sha": "d0ea98491f87c4743f343c4cda70821d8e3e2e05",
+  "source_commit": "f2234a45ac0db68b6e67f489ad7ca7f3922188b6",
+  "tier": "real_data",
+  "notes": "Computes per-segment KPIs (effectif, CA total, ARPU, age band counts, newsletter subscribers) via PROC SQL aggregate functions. autoexec.sas preloads 25 clients + ~80 commandes; the full pipeline (load + clean + ventes join + indicators + segmentation + aggregation) runs as one bundle culminating in the final KPI table."
+}
