@@ -1,0 +1,49 @@
+                      Distribution des segments R, F et M                       
+
+                                                   The FREQ Procedure
+
+                                         Cumulative    Cumulative
+seg_recence    Frequency    Percent     Frequency      Percent
+--------------------------------------------------------------------
+R1                     7     35.00            7        35.00
+R2                     7     35.00           14        70.00
+R3                     6     30.00           20       100.00
+
+                                           Cumulative    Cumulative
+seg_frequence    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------------
+F1                       6     30.00            6        30.00
+F2                       8     40.00           14        70.00
+F3                       6     30.00           20       100.00
+
+                                         Cumulative    Cumulative
+seg_montant    Frequency    Percent     Frequency      Percent
+--------------------------------------------------------------------
+M1                     7     35.00            7        35.00
+M2                     5     25.00           12        60.00
+M3                     8     40.00           20       100.00
+                         Distribution des 3 segments RF                         
+
+                                                   The FREQ Procedure
+
+                                    Cumulative    Cumulative
+SEG_RF    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------
+RF1               7     35.00            7        35.00
+RF2               3     15.00           10        50.00
+RF3              10     50.00           20       100.00
+                     Distribution des 9 segments RFM finaux                     
+
+                                                   The FREQ Procedure
+
+                                     Cumulative    Cumulative
+SEG_RFM    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------
+RFM1               4     20.00            4        20.00
+RFM2               1      5.00            5        25.00
+RFM3               2     10.00            7        35.00
+RFM5               1      5.00            8        40.00
+RFM6               2     10.00           10        50.00
+RFM7               3     15.00           13        65.00
+RFM8               3     15.00           16        80.00
+RFM9               4     20.00           20       100.00

@@ -1,0 +1,8 @@
+{
+  "bundle": "t004_indicateurs_rfm",
+  "source_file": "PGM/3_Construction_analyse_indicateurs_RFM.sas",
+  "source_blob_sha": "ac35290da729dcf9be6dc60ad8bdd1d1644a4679",
+  "source_commit": "f2234a45ac0db68b6e67f489ad7ca7f3922188b6",
+  "tier": "real_data",
+  "notes": "Computes the three RFM indicators per client over 2021-2022: RECENCE = INTCK('month', last_order, 01JAN2023); FREQUENCE = distinct count of orders; MONTANT = average order value. Then PROC RANK assigns deciles and PROC SUMMARY reports the decile bounds. autoexec.sas preloads ~80 commandes from real data."
+}

@@ -1,0 +1,43 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 200.
+NOTE: DATA WORK.COMMANDES
+
+NOTE: Processing inline DATALINES (61 lines)
+
+NOTE: Read 61 rows from DATALINES.
+NOTE: Wrote WORK.COMMANDES (61 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA WORK.COMMANDES_CLEAN
+
+
+NOTE: Read 61 rows from WORK.COMMANDES.
+NOTE: Read 61 rows from WORK.COMMANDES.
+NOTE: Wrote WORK.COMMANDES_CLEAN (59 rows, 12 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Table INDICATEURS_RFM created.
+NOTE: PROC SQL statement used.
+NOTE: PROC PRINT data=INDICATEURS_RFM
+
+NOTE: PROC PRINT completed: 10 observations printed, 4 variables
+NOTE: PROC RANK data=INDICATEURS_RFM out=Some("RANG_MONTANT") groups=10
+
+
+NOTE: Read 20 rows from /home/lwsinclair/.claude/workspaces/jenner-check-runs/scratch/t004_indicateurs_rfm_test/work/indicateurs_rfm.avro.
+NOTE: Wrote /home/lwsinclair/.claude/workspaces/jenner-check-runs/scratch/t004_indicateurs_rfm_test/work/rang_montant.avro (20 rows, 5 columns).
+NOTE: PROC RANK elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC MEANS
+NOTE: Output dataset MONTANT_10_RANG has 11 observations and 5 variables.
+NOTE: PROC MEANS statement used.
+NOTE: PROC PRINT data=MONTANT_10_RANG
+
+NOTE: PROC PRINT completed: 11 observations printed, 5 variables

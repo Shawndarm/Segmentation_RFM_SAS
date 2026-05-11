@@ -1,0 +1,16 @@
+                         Audit qualité — Table CLIENTS                          
+
+                                          Obs                     _NAME_  VALUE
+                                            1  nb_lignes                     25
+                                            2  nb_num_clients                25
+                                            3  nb_missing_num_client          0
+                                            4  nb_missing_actif               0
+                                            5  nb_missing_a_ete_parraine      0
+                                            6  nb_missing_genre               0
+                                            7  nb_missing_date_naissance      0
+                                            8  nb_missing_inscrit_nl          0
+                                            9  nb_mod_genre                   2
+                                           10  nb_mod_a_ete_parraine          3
+                                           11  nb_mod_actif                   1
+                                           12  nb_mod_inscrit_nl              2
+

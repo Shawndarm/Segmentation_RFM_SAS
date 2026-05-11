@@ -1,0 +1,8 @@
+{
+  "bundle": "t003_analyse_descriptive",
+  "source_file": "PGM/2_Analyse_descriptive.sas",
+  "source_blob_sha": "bae5d89eb0efcde55692334d00c2ada0d2487d03",
+  "source_commit": "f2234a45ac0db68b6e67f489ad7ca7f3922188b6",
+  "tier": "real_data",
+  "notes": "Describes the clients base: distinct counts, gender split, age band counts via the SUM(CASE WHEN ...) pattern. autoexec.sas preloads 25 clients from the original data. Adds a PROC FREQ on Genre for an additional view."
+}

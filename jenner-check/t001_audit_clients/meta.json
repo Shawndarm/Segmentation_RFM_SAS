@@ -1,0 +1,8 @@
+{
+  "bundle": "t001_audit_clients",
+  "source_file": "PGM/1_Audit_Nettoyage_données.sas (audit half)",
+  "source_blob_sha": "8d66deebd48f57c5a981320567d14fa59e893af2",
+  "source_commit": "f2234a45ac0db68b6e67f489ad7ca7f3922188b6",
+  "tier": "real_data",
+  "notes": "Quality audit on the CLIENTS table — volumetry, missing values, distinct counts — via PROC SQL with aggregate functions, then PROC TRANSPOSE to a vertical report. autoexec.sas preloads a 25-client sample (real rows from the original 4196). SUM(MISSING(col)) reformulated as SUM(CASE WHEN col IS NULL THEN 1 ELSE 0 END) for strict aggregate parsing."
+}

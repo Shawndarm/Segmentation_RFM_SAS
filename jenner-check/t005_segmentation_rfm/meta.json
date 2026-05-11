@@ -1,0 +1,8 @@
+{
+  "bundle": "t005_segmentation_rfm",
+  "source_file": "PGM/4_Contruction_segmentation_RFM.sas",
+  "source_blob_sha": "0819dfc80788a1ed948b64c35f9e6c955c1dcad5",
+  "source_commit": "f2234a45ac0db68b6e67f489ad7ca7f3922188b6",
+  "tier": "real_data",
+  "notes": "Applies the recency/frequency/montant thresholds via PROC SQL CASE WHEN, then combines R x F into three groups (RF1-RF3) via DATA-step IF-ELSE, then cross-classifies RF x M into the final 9 RFM segments. PROC FREQ at each step. autoexec.sas preloads ~80 commandes; indicators are built inline from those."
+}

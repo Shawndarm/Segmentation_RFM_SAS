@@ -1,0 +1,8 @@
+{
+  "bundle": "t002_nettoyage_donnees",
+  "source_file": "PGM/1_Audit_Nettoyage_données.sas (cleaning half)",
+  "source_blob_sha": "8d66deebd48f57c5a981320567d14fa59e893af2",
+  "source_commit": "f2234a45ac0db68b6e67f489ad7ca7f3922188b6",
+  "tier": "real_data",
+  "notes": "Cleans both tables: imputes missing parrainage values, computes AGE via INTCK, parses the French dd-mois-yy date format via SCAN + SELECT/WHEN into a numeric DATE_COMMANDE, and filters out negative amounts. autoexec.sas preloads ~25 clients and ~80 commandes from the real data. Dates arrive as strings (CSV origin) and are converted via INPUT(..., DDMMYY10.)."
+}
